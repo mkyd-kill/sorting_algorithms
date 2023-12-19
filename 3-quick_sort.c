@@ -57,7 +57,7 @@ void modifyQuickSort(int *arr, int low, int high, int size)
 {
 	if (low < high)
 	{
-		int pi = partition(arr, low, high, size);
+		int pi = lomutoPartition(arr, low, high, size);
 
 		modifyQuickSort(arr, low, pi - 1, size);
 		modifyQuickSort(arr, pi + 1, high, size);
