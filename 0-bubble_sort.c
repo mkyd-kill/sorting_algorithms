@@ -10,7 +10,7 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t a, b;
 	int temp = 0;
-	int *list = malloc(n * sizeof(int));
+	int *list = malloc(size * sizeof(int));
 
 	list = array;
 
