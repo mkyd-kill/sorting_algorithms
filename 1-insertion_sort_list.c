@@ -27,7 +27,7 @@ void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2)
 
 /**
  * insertion_sort_list - Sorts a doubly linked list
- * in ascending order using the 
+ * in ascending order using the
  * insertion sort algorithm
  * @list: Array list to be sorted
  */
@@ -42,7 +42,7 @@ void insertion_sort_list(listint_t **list)
 		return;
 
 	current = *list;
-	while(current->next != NULL)
+	while (current->next != NULL)
 	{
 		temp = current->next;
 		if (current->n > current->next->n)
